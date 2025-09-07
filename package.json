@@ -1,0 +1,23 @@
+{
+  "name": "4.0-ejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "22.x"
+  },
+  "keywords": [],
+  "author": "Dil Bhardwaj",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  }
+}

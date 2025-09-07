@@ -1,0 +1,20 @@
+<%- include("partials/header.ejs") %>
+
+  <% if (locals.member1 && locals.member2) { %>
+    <h1>
+      <%= member1 %>
+      <span>&</span>
+        <%= member2 %>
+    </h1>
+    <% } else { %>
+      <h1>Welcome to the Team Match-Maker </h1>
+      <% } %>
+
+
+
+        <form action="/submit" method="POST">
+          <input type="submit" value="Find Team-Members">
+        </form>
+
+
+        <%- include("partials/footer.ejs") %>
